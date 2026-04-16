@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Melany Kresna Putri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <h1 class="brand">Melany Kresna Putri</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#proyek">Proyek</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        
+        <section class="hero">
+            <img src="/asset/jpg1.JPG" alt="Foto Profil">
+            <p class="hero-role">UI/UX Designer & Frontend Developer</p>
+        </section>
+
+        <section id="tentang">
+            <h2 class="section-title">Tentang Saya</h2>
+            <article>
+                <p>S@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', Arial, sans-serif; 
+    background-color: aliceblue;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* CONTAINER UTAMA */
+.main-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* NAVBAR (Tetap di kanan atas) */
+.navbar {
+    background: #007bff;
+    color: white;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.hero-role {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* LAYOUT VERTIKAL (Judul di Atas Konten) */
+section {
+    margin-bottom: 40px; /* Jarak antar section */
+}
+
+.section-title {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 15px; /* Jarak antara judul dan card di bawahnya */
+}
+
+/* CARD STYLE */
+article {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    margin-bottom: 10px;
+}
+
+article ul {
+    list-style-position: inside;
+    color: #666;
+}
+
+.contact-card p {
+    margin-bottom: 8px;
+}
+
+/* SKILL & PROJECT GRID (Tetap 3 kolom menyamping) */
+.skill-container, .project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* FORM */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skill-container, .project-container {
+        grid-template-columns: 1fr;
+    }
+}</p>
+            </article>
+        </section>
+
+        <section id="skill">
+            <h2 class="section-title">Keahlian</h2>
+            <div class="skill-container">
+                <article>
+                    <h3>UI/UX</h3>
+                    <ul><li>Wireframing</li><li>Prototyping</li></ul>
+                </article>
+                <article>
+                    <h3>Frontend Developer</h3>
+                    <ul><li>HTML/CSS</li><li>Responsive</li></ul>
+                </article>
+                <article>
+                    <h3>Tools</h3>
+                    <ul><li>Figma</li><li>VS Code</li></ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="proyek">
+            <h2 class="section-title">Proyek</h2>
+            <div class="project-container">
+                <article>
+                    <h3>Proyek IOT</h3>
+                    <p>Pernah Membuat project Sistem Monitoring Berbasis IoT untuk Kualitas Udara || Menggunakan Esp32,DHT22, & MQ7.</p>
+                </article>
+                <article>
+                    <h3>Proyek Aplikasi Berbasis Web</h3>
+                    <p>Membuat Sistem Penerimaan Mahasiswa Baru Universitas Sukun (UNSU) dengan TIM  .</p>
+                </article>
+                <article>
+                    <h3>Proyek Desain</h3>
+                    <p>Membuat Design Antar Muka UI/UX yang Berjudul MELWELL berisi tentang kesehatan.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <h2 class="section-title">Kontak</h2>
+            <article class="contact-card">
+                <p><strong>Email:</strong> melanikresna@gmail.com</p>
+                <p><strong>No HP:</strong> +62 857-8400-7645</p>
+            </article>
+        </section>
+         </section>
+
+          
+        <!-- Form -->
+        <section id="form">
+            <h2>Form Pendaftaran</h2>
+
+           <form id="formPendaftaran">
+                <label>Nama:</label>
+                <input type="text" id="nama" required>
+
+                <label>Email:</label>
+                <input type="email" id="email" required>
+
+                <label>No HP:</label>
+                <input type="tel" id="nohp" required>
+
+                <label>Kategori:</label>
+                <select id="kategori" required>
+                    <option>-- Pilih --</option>
+                    <option>Web Development</option>
+                    <option>Desain</option>
+                    <option>Konsultasi</option>
+                </select>
+
+                <label>Pesan:</label>
+                <textarea rows="4"></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+            <!-- OUTPUT -->
+             <div id="hasilPendaftaran"></div>
+        </section>
+
+
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; @2026 Melany Kresna</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
