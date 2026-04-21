@@ -22,8 +22,8 @@ body {
 
 /* NAVBAR (Tetap di kanan atas) */
 .navbar {
-    background: #007bff;
-    color: white;
+    background: #ffc107; /* kuning */
+    color: #333;
 }
 
 .foto-profil {
@@ -52,7 +52,7 @@ body {
 }
 
 .nav-menu li a {
-    color: white;
+    color: #333;
     text-decoration: none;
     font-weight: 600;
 }
